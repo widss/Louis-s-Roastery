@@ -56,7 +56,9 @@ a{
 	text-align: center;
 	color:  #445740;
 }
-
+#narasi{
+	margin-top: 5%;
+}
 .navbar{
 	background-color: #445740;
 	margin: 0;
@@ -80,7 +82,7 @@ a{
 		text-align: center;
 	}
 	.head-button{
-		margin-top: 5%;
+		margin-top: 10%;
 	}
 	.header{
 		padding-top: 0;
