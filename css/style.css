@@ -72,7 +72,7 @@ a{
  	text-align: center;
  }
 /*Queries*/
-@media (max-width: 960px){
+@media (max-width: 1200px){
 	#header,.coffee,.button-contact{
 		text-align: center;
 	}
