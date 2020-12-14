@@ -76,6 +76,9 @@ a{
 	#header,.coffee,.button-contact{
 		text-align: center;
 	}
+	.header{
+		padding-top: 2%;
+	}
 	#narasi{
 	line-height: 1.5;
 	font-family: 'Roboto', sans-serif;
