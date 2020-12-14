@@ -78,10 +78,13 @@ a{
 /*Queries*/
 @media (max-width: 990px){
 	.cards{
-		transform: scale(0.8);
+		transform: scale(0.95);
 	}
 	#header,.coffee,.button-contact{
 		text-align: center;
+	}
+	.header .col-lg-6{
+		padding: 5%;
 	}
 	.head-button{
 		margin-top: 10%;
