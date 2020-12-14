@@ -22,7 +22,7 @@ a{
 
 /*classes*/
 .cards, .card{
-	margin-top: 5%;
+	
 	text-align: center;
 }
 .container-fluid{
@@ -50,7 +50,7 @@ a{
 }
 .header .col-lg-6, .narasi{
 	padding: 10%;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 }
 .narasi{
 	text-align: center;
@@ -58,6 +58,7 @@ a{
 }
 #narasi{
 	margin-top: 5%;
+	margin-bottom: 5%;
 }
 .navbar{
 	background-color: #445740;
@@ -70,8 +71,9 @@ a{
 	font-weight: 600;
 }
  .row-narasi{
- 	padding: 10% 0;
+ 	padding: 5% 0;
  	text-align: center;
+
  }
 /*Queries*/
 @media (max-width: 990px){
@@ -92,7 +94,9 @@ a{
 	font-family: 'Roboto', sans-serif;
 }
 	.row-narasi{
-		margin: 5% auto;
+		margin-left: auto;
+		margin-right: auto;
 		size: 50%;
+		width: 60%;
 	}
 }
