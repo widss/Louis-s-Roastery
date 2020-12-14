@@ -1,0 +1,87 @@
+body{
+	
+}
+h1{
+	font-family: 'Vollkorn', serif;
+	font-weight: 900;
+	font-size: 3.5rem;
+}
+h2{
+	font-family: 'Vollkorn', serif;
+	font-weight: 800;
+	font-size: 1.5rem;
+}
+h5{
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.75rem;
+}
+a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+}
+
+/*classes*/
+.cards, .card{
+	margin-top: 5%;
+	text-align: center;
+}
+.container-fluid{
+	padding: 0;
+}
+.coffee{
+	text-align: right;
+}
+.footer{
+	text-align: center;
+	background-color: #343a40;
+	margin-bottom: 0;
+	padding: 2%;
+	color: #fff;
+}
+.head{
+	background-image: url("../image/background.png");
+	background-color: #ccc;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.header .col-lg-6{
+	padding: 10%;
+	color:  #fff;
+}
+.header .col-lg-6, .narasi{
+	padding: 10%;
+	letter-spacing: 2px;
+}
+.narasi{
+	text-align: center;
+	color:  #445740;
+}
+
+.navbar{
+	background-color: #445740;
+	margin: 0;
+	padding: 1% 10%;
+ }
+.navbar .navbar-brand{
+	font-family: 'Vollkorn', serif;
+	font-size: 2rem;
+	font-weight: 600;
+}
+ .row-narasi{
+ 	padding: 10% 0;
+ 	text-align: center;
+ }
+/*Queries*/
+@media (max-width: 960px){
+	#header,.coffee,.button-contact{
+		text-align: center;
+	}
+	#narasi{
+	line-height: 1.5;
+	font-family: 'Roboto', sans-serif;
+}
+	.row-narasi{
+		margin: 5% auto;
+		size: 50%;
+	}
+}
