@@ -119,7 +119,16 @@ a{
 	#narasi{
 	line-height: 1.5;
 	font-family: 'Roboto', sans-serif;
+	text-align: justify;
 }
+	.row1{
+		text-align: center;
+				padding: 2%;
+	}
+	.row1 p, .row1 i{
+		margin: 5% auto;
+		text-align: justify;
+	}
 	.row-narasi{
 		margin-left: auto;
 		margin-right: auto;
