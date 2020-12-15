@@ -31,6 +31,9 @@ a{
 .coffee{
 	text-align: right;
 }
+.col-lg-6 .form-group{
+	text-align: left;
+}
 .footer{
 	text-align: center;
 	background-color: #343a40;
@@ -52,7 +55,10 @@ a{
 	padding: 10%;
 	letter-spacing: 1px;
 }
-.narasi{
+.head-contact{
+	padding: 10%;
+}
+.narasi, .head-contact{
 	text-align: center;
 	color:  #445740;
 }
@@ -70,11 +76,29 @@ a{
 	font-size: 2rem;
 	font-weight: 600;
 }
- .row-narasi{
+.row-contact{
+	margin: 5% 0;
+}
+.row1, .col-lg-6 h2{
+	text-align: left;
+	
+}
+.row1 p{
+	margin-top: 5%;
+	width: 75%;
+}
+.forms{
+	margin: 5% 0;
+}
+.row-narasi{
  	padding: 5% 0;
  	text-align: center;
 
  }
+
+
+
+ 
 /*Queries*/
 @media (max-width: 990px){
 	.cards{
