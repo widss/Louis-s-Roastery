@@ -7,13 +7,21 @@ h1{
 	font-size: 3.5rem;
 }
 h2{
-	font-family: 'Vollkorn', serif;
+	font-family: 'Vollkorn',serif;
 	font-weight: 800;
-	font-size: 1.5rem;
+	font-size: 2.5rem;
+	color:  #445740;
+}
+p{
+	font-family: 'Roboto', serif;
+	font-weight: 400;
+	font-size: 1.2rem;
+	color:  #445740
 }
 h5{
 	font-family: 'Roboto', sans-serif;
 	font-size: 0.75rem;
+	color:  #445740
 }
 a{
 	font-family: 'Roboto', sans-serif;
@@ -53,7 +61,8 @@ a{
 }
 .header .col-lg-6, .narasi{
 	padding: 10%;
-	letter-spacing: 1px;
+	letter-spacing: 2px;
+
 }
 .head-contact{
 	padding: 10%;
@@ -65,6 +74,8 @@ a{
 #narasi{
 	margin-top: 5%;
 	margin-bottom: 5%;
+	text-align: justify;
+	line-height: 1.5;
 }
 .navbar{
 	background-color: #445740;
@@ -86,6 +97,8 @@ a{
 .row1 p{
 	margin-top: 5%;
 	width: 75%;
+	text-align: justify;
+	
 }
 .forms{
 	margin: 5% 0;
@@ -97,7 +110,13 @@ a{
  }
 
 
-
+.Variants{
+	text-align: center;
+	padding: 10%;
+}
+.cards{
+	padding: 5%;
+}
  
 /*Queries*/
 @media (max-width: 990px){
